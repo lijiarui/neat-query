@@ -1,9 +1,13 @@
 {
   "name": "neat-query",
-  "version": "1.0.0",
-  "description": "neat-query change complex Chinese query to a neat one then NLU platform can learn",
-  "main": "index.js",
+  "author": "Jiarui Li <ruiruibupt@126.com> (http://blog.botorange.com)", 
+  "version": "0.0.1",
+  "main": "dist/neat-query.js",
+  "types": "dist/neat-query.d.ts",
+  "description": "Change complex Chinese query to a neat one for NLU platform learn",
   "scripts": {
+    "clean": "shx rm -fr dist/*",
+    "dist": "npm run clean && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +15,6 @@
     "url": "git+https://github.com/lijiarui/neat-query.git"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lijiarui/neat-query/issues"
