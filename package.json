@@ -1,7 +1,7 @@
 {
   "name": "neat-query",
   "author": "Jiarui Li <ruiruibupt@126.com> (http://blog.botorange.com)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/neat-query.js",
   "types": "dist/neat-query.d.ts",
   "description": "Change complex Chinese query to a neat one for NLU platform learn",
