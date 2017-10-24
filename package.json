@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/lijiarui/neat-query/issues"
   },
-  "homepage": "https://github.com/lijiarui/neat-query#readme"
+  "homepage": "https://github.com/lijiarui/neat-query#readme",
+  "files": [
+    "neat-query.ts",
+    "README.md",
+    "package.json",
+    "dist/"
+  ]
 }
